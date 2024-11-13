@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titel{
+  font-size: 100px;
+  text-align: center;
+}
+.body{
+}
+
+.button{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
